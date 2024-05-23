@@ -3,7 +3,7 @@ set -euo pipefail
 IFS=$'\n\t'
 
 # I prefer to store all secrets on a self-hosted Bitwarden server.
-# Below is an example of how to do that.
+# Below is an example of how to get environment variables from the Bitwarden CLI.
 # For the ability to work with JSON (Bitwarden CLI output), you need to have the `jq` CLI installed on your system.
 
 # set -eo pipefail

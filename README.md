@@ -55,7 +55,7 @@ The script uses a JSON configuration file to specify the dotfiles setup. Here is
 
 ### Running the Script
 
-To use the dotfiles manager, run the script with the desired options:
+To use kdf, run the script with the desired options:
 
 ```bash
 python kdf.py --config path/to/config.json [--dry-run] [--check-templates]
@@ -92,7 +92,7 @@ cd .dotfiles
 See `./example/run.sh` for some comments on how to use environment variables.
 
 ### Template Variables
-In template files, replaceable variables are presented like `{{ TEMP_BW_SESSION }}`. The program will replace these variables with the corresponding environment variable values. You can provide variables in base64 format (used for multiline variables); use the `env_base64` config parameter for that. It will be decoded before replacing the template variable.
+In template files, replaceable variables are presented like `{{ TEMP_BW_SESSION }}`. The program will replace these variables with the corresponding environment variable values. You can provide variables in base64 format (used for multiline variables); use the `env_base64` config parameter for that. They will be decoded before replacing the template variables.
 
 ## Requirements
 
