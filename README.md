@@ -96,5 +96,5 @@ In template files, replaceable variables are presented like `{{ TEMP_BW_SESSION 
 
 ## Requirements
 
-- Python 3.6+
+- Python 3.8+
 - No external dependencies are required.
