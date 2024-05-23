@@ -98,3 +98,7 @@ In template files, replaceable variables are presented like `{{ TEMP_BW_SESSION 
 
 - Python 3.8+
 - No external dependencies are required.
+
+## Naming
+
+Inspired by https://github.com/nvim-lua/kickstart.nvim project.
