@@ -85,7 +85,7 @@ Run the provided `example`, it will generate files in the `example` folder:
 
 ```bash
 git clone https://github.com/Foat/kickstart.dotfiles.git
-cd .dotfiles
+cd kickstart.dotfiles
 ./example/run.sh --config ./example/config@linux.json
 ```
 
