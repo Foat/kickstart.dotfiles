@@ -1,0 +1,26 @@
+{
+  "dotfiles": {
+    "content": "./example/content/",
+    "generated": "./example/generated@mac/"
+  },
+  "clone": {
+    ".ssh": {
+      "url": "https://github.com/nvim-lua/kickstart.nvim",
+      "path": "./example/home@mac/.config/nvim"
+    }
+  },
+  "links": {
+    ".config/yazi": "./example/home@mac/.config/yazi",
+    ".zshrc_add@mac": "./example/home@mac/.zshrc_add"
+  },
+  "templates": {
+    ".zshrc.temp": "./example/home@mac/.zshrc",
+    ".config/rclone/rclone.conf.temp": "./example/home@mac/.config/rclone/rclone.conf"
+  },
+  "env": [
+    "TEMP_EXAMPLE_ENV"
+  ],
+  "env_base64": [
+    "TEMP_RCLONE_HOME"
+  ]
+}
